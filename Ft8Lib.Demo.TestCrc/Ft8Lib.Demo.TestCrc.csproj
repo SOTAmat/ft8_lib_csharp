@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>Ft8Lib.Demo.TestCrc</RootNamespace>
+        <AssemblyName>Ft8Lib.Demo.TestCrc</AssemblyName>
+        <LangVersion>10.0</LangVersion>
+        <Nullable>enable</Nullable>
+        <StartupObject>Ft8Lib.Demo.TestCrc</StartupObject>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Ft8Lib\Ft8Lib.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Include="..\Ft8Lib\Demo\TestCrc.cs" Link="TestCrc.cs" />
+    </ItemGroup>
+</Project> 

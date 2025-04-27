@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Ft8Lib.Demo.GenFt8": {
+      "commandName": "Project",
+      "commandLineArgs": "\"1234567890123\" c:\\temp\\ft8.wav"
+    }
+  }
+}
